@@ -19,10 +19,19 @@
   color: #818181;
   display: block;
 }
-
-#main-doc, .nava {
+.nava {
  margin-left: 160px; /* Same as the width of the sidebar */
  padding: 0px 10px;
+ color: azure;
+}
+
+#main-doc {
+ margin-left: 160px; /* Same as the width of the sidebar */
+ padding: 0px 10px;
+}
+@media screen and (max-height: 450px) {
+ #navbar {padding-top: 15px;}
+ #navbar .nav-link {font-size: 18px;}
 }
 
 
