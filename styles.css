@@ -1,91 +1,57 @@
-#navbar{
- 
-  height: 100%; 
-  width: 160px; 
-  position: fixed; 
-  z-index: 1; 
-  top: 0; 
+#navbar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111; 
-  overflow-x: hidden; 
+  background-color: #111;
+  overflow-x: hidden;
   padding-top: 20px;
 }
-.nav-link:hover{
- background-color: white;
+.nav-link:hover {
+  background-color: white;
 }
-#navbar .nav-link 
- {
-  padding: 6px 8px 6px 16px;
+#navbar .nav-link {
+  padding: 16px 18px 16px 18px;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 60px;
   color: #818181;
   display: block;
-  
-}
+} 
 .nava {
- margin-left: 160px;
- padding: 0px 10px;
- color: azure;
+  margin-left: 160px;
+  padding: 0px 10px;
+  color: azure;
 }
-
 
 #main-doc {
- margin-left: 160px; 
- padding: 0px 10px;
- text-align: center;
- background-color: white ;
- opacity: 0.65;
- border-radius: 15px;
+  margin-left: 160px;
+  padding: 0px 10px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.65;
+  border-radius: 15px;
 }
-.full{
- background-image: url(803426.jpg);
-}
-
-header{
-font-family:Georgia, 'Times New Roman', Times, serif;
-font-size: 2em;
-text-decoration: underline;
+.full {
+  background-image: url(803426.jpg);
 }
 
-ol{
- list-style: none;
+header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+  text-decoration: underline;
 }
 
-
-
-
-
-
-@media  (min-width: 450px) {
-#navbar {padding-top: 15px;}
- #navbar .nav-link {font-size: 18px;}
+ol {
+  list-style: none;
 }
 
-
-/* #navbar{
- 
- height: 100%; 
- width: 160px; 
- position: fixed; 
- z-index: 1; 
- top: 0; 
- left: 0;
- background-color: #111; 
- overflow-x: hidden; 
- padding-top: 20px;
+@media (min-width: 450px) {
+  #navbar {
+    padding-top: 15px;
+  }
+  #navbar .nav-link {
+    font-size: 18px;
+  }
 }
-
-#navbar .nav-link
-{
- padding: 6px 8px 6px 16px;
- text-decoration: none;
- font-size: 25px;
- color: #818181;
- display: block;
-}
-.nava {
-margin-left: 160px;
-padding: 0px 10px;
-color: azure;
-
-} */
