@@ -10,20 +10,22 @@
   overflow-x: hidden; 
   padding-top: 20px;
 }
-
-#navbar .nav-link
+.nav-link:hover{
+ background-color: white;
+}
+#navbar .nav-link 
  {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
+  
 }
 .nava {
  margin-left: 160px;
  padding: 0px 10px;
  color: azure;
- 
 }
 
 
